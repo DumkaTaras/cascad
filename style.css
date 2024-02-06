@@ -1,0 +1,77 @@
+/* exercise1 */
+h3:nth-child(1){
+    color: pink;
+}
+#greycol{
+    color: gray;
+}
+.text-box :nth-child(7){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+p:first-child{
+ color: red;   
+}  
+/**************************** exercise1 ***************************************/
+/**************************** exercise2 **********************************/
+:root{
+--main-color1:rgb(101, 101, 239);
+}
+:root{
+    --main-color2:rgb(0, 213, 255);
+    }
+    :root{
+        --main-color3:rgb(0, 255, 94);
+        }
+        :root{
+            --main-color4:yellow;
+            }
+            :root{
+                --main-color5:rgb(255, 140, 0);
+                }
+                :root{
+                    --main-color6:rgb(255, 0, 0);
+                    }
+.flex{
+    display: flex;
+}
+.menu{
+    text-align: center;
+    color: red;
+}
+ul{
+    list-style: none;
+}
+
+.list-subjects:hover:first-child{
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color1)
+}
+.list-subjects:hover:nth-child(2){
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color2)
+}
+.list-subjects:hover:nth-child(3){
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color3)
+}
+.list-subjects:hover:nth-child(4n){
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color4)
+}
+.list-subjects:hover:nth-child(5n){
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color5)
+}
+.list-subjects:hover:last-child{
+    border: 2px solid;
+      font-size: 14px;
+      background-color:var(--main-color6)
+}
